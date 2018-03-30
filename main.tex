@@ -1,0 +1,116 @@
+%CS-113 S18 HW-6
+%Released: 30-March-2018
+%Deadline: 13-April-2018 7.00 pm
+%Authors: Abdullah Zafar, Waqar Saleem.
+
+
+\documentclass[addpoints]{exam}
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\runningfootrule
+\runningheader{CS 113 Discrete Mathematics}{Homework VI}{Spring 2018}
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\firstpageheader{}{}{}
+
+\boxedpoints
+\printanswers
+\usepackage[table]{xcolor}
+\usepackage{amsfonts,graphicx,amsmath,hyperref,amssymb}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+}
+
+\title{Habib University\\CS-113 Discrete Mathematics\\Spring 2018\\HW 6}
+\author{$<your ID>$}  % replace with your ID, e.g. rk03734
+\date{Due: 19h, 13th April, 2018}
+
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+
+
+
+\question
+Prove that a graph of $n$ vertices and $n-1$ edges has a vertex of degree 1 or an isolated vertex.
+  \begin{solution}
+    % Write your solution here
+  \end{solution}
+
+\question 
+Prove that a graph $G$ is $2$-connected \textbf{iff} for every triple $(x,y,z)$ of distinct vertices, $G$ has an $(x,z)$ path through $y$.
+
+(A graph is $2$-connected if removing at least 2 vertices (and associated edges) disconnects it or produces a graph with a single vertex)  
+
+
+  \begin{solution}
+    % Write your solution here
+  \end{solution}
+  
+\question 
+Are the following graphs isomorphic? Provide a mapping if they are, or explain why they are not.
+\[
+\begin{bmatrix}
+0 & 1 & 1 & 0 & 0 & 0\\
+1 & 0 & 1 & 1 & 0 & 0\\
+1 & 1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 1 & 1\\
+0 & 0 & 0 & 1 & 0 & 1\\
+0 & 0 & 0 & 1 & 1 & 0\\
+\end{bmatrix}
+\qquad
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 1 & 0\\
+0 & 0 & 0 & 1 & 0 & 1\\
+1 & 0 & 0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0 & 0 & 1\\
+1 & 0 & 1 & 0 & 0 & 1\\
+0 & 1 & 0 & 1 & 1 & 0\\
+\end{bmatrix}
+\]
+
+  \begin{solution}
+    % Write your solution here
+  \end{solution}
+
+\question
+The complement of a graph $G = (V,E)$ is the graph 
+
+\[(V,\{\{x,y\}:\in V, x \not = y\} \;\backslash \;E)\]
+
+A graph is \textit{self-complementary} if it is isomorphic to its complement.
+
+\begin{parts}
+	\part Prove that no simple graph with two or three vertices is self-complementary, without enumerating all isomorphisms of such simple graphs.
+	
+	\part Give one example each of self-complementary simple graphs with 4 and 5 vertices.
+	\end{parts}
+
+   \begin{solution}
+    % Write your solution here
+  \end{solution}
+
+\question 
+Consider a graph $G$ with two sets of vertices $M$ and $N$ and a set of undirected edges $E$ such that $\forall m\in M, n \in N(\{m,n\} \in E)$. Determine (and prove) all $|M|,|N|\in \mathbb{N}$ for which $G$ is
+\begin{parts}
+	\part Eulerian
+	\begin{solution}
+		% Write your solution here
+	\end{solution}
+	\part Hamiltonian
+	\begin{solution}
+		% Write your solution here
+	\end{solution}
+\end{parts}
+
+
+
+\end{questions}
+
+
+\end{document}
